@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import DashboardLayout from "./elements/DashboardLayout";
-import Blank from "./components/Blank";
+import MainContent from "./components/Blank";
 import Sidebar from "../../components/Sidebar";
 
 const AppLayout = () => {
@@ -8,7 +8,7 @@ const AppLayout = () => {
     <>
       <Sidebar />
       <Routes>
-        <Route path="my-hospital/*" element={<Blank />} />
+        <Route path="/my-hospital/*" element={<MainContent />} />
 
         {/* <Route path="/" element={<DashboardLayout />}>
         </Route> */}

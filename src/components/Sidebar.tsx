@@ -38,7 +38,7 @@ const sidebarUpNavItems = [
   {
     display: "My Hospitals",
     icon: plus,
-    to: "/my-hospital",
+    to: "my-hospital",
     section: "order",
   },
 ];
